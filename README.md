@@ -1,5 +1,5 @@
-# Live Preview SSR Example
-This is an example of [Live Preview SSR](https://www.contentstack.com/docs/developers/set-up-live-preview/set-up-live-preview-for-your-website/#server-side-rendering-ssr) implementation.
+# Live Preview GraphQl Example
+This is an example of Live Preview GraphQl implementation.
 
 ## Prerequisite
 1. Contentstack account
@@ -7,7 +7,7 @@ This is an example of [Live Preview SSR](https://www.contentstack.com/docs/devel
 3. Publish Environment
 4. Contentstack Delivery Token
 5. Contentstack Management Token
-> Please check [this](https://www.contentstack.com/docs/developers/set-up-live-preview/set-up-live-preview-for-your-website/#server-side-rendering-ssr) for more info on this.
+> Please check [this](https://www.contentstack.com/docs/developers/set-up-live-preview/set-up-live-preview-for-your-website/#client-side-rendering-csr) for more info on this.
 
 ## Usage
 1. Step 1: Create a content type with `single line textbox` and `url` field and then create a entry with this content type
@@ -20,7 +20,7 @@ This is an example of [Live Preview SSR](https://www.contentstack.com/docs/devel
     ```bash
     npm start
     ```
-> Note: The example will start on `localhost:3001`
+> Note: The example will start on `localhost:3000`
 
 ## Important Files
 1. `contentstack.config.js`
